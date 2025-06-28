@@ -16,6 +16,6 @@ add_executable(FontCache-tests
 )
 file(COPY test/utf8_sample.txt DESTINATION ${CMAKE_BINARY_DIR})
 file(COPY test/fonts/FreeSans.ttf DESTINATION ${CMAKE_BINARY_DIR}/fonts)
-target_link_libraries(FontCache-tests FontCache)
+target_link_libraries(FontCache-tests FontCache m)
 
 
