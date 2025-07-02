@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.8)
 project(SDL_FontCache VERSION 0.10.0 LANGUAGES C)
 
 find_package(SDL2 REQUIRED)
